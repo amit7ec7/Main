@@ -33,5 +33,12 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
+      - name: Azure Login
+    uses: azure/login@v2
+  with:
+    client-id: ${{ secrets.25acc71a-cf92-4cb6-9c88-646878e3b993 }}
+    tenant-id: ${{ secrets.bc0de973-fa87-4900-94ad-2ac1ab72d129 }}
+    subscription-id: ${{ secrets.bf9f8ce4-b5e3-4c3e-ae91-0856d121c4e3 }}
+
       - name: Terraform Plan
         run: terraform plan
