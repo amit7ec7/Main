@@ -7,14 +7,6 @@ rg_name = {
     name     = "tillu"
     location = "centralindia"
   }
-  rg3 = {
-    name     = "pillu"
-    location = "centralindia"
-  }
-  rg4 = {
-    name     = "sillu"
-    location = "centralindia"
-  }
 }
 
 vnet_name = {
