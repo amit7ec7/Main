@@ -46,3 +46,12 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: feature/new-rg
+          title: "Terraform changes"
+          body: "Automatically created Pull Request"
