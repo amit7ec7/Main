@@ -11,6 +11,7 @@ rg_name = {
     name     = "sillu"
     location = "centralindia"
   }
+}
 
 vnet_name = {
   vnet1 = {
