@@ -3,7 +3,7 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - feature/new-rg
+      - Main
 
   pull_request:
     branches:
