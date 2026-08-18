@@ -3,11 +3,11 @@ name: Terraform Pipeline
 on:
   push:
     branches:
-      - main
+      - Main
 
   pull_request:
     branches:
-      - main
+      - Main
 
 permissions:
   id-token: write
